@@ -24,6 +24,7 @@ featured_img:
 https://twitter.com/laurieontech/status/1250900874743947267
 
 
+
 ---
 
 - *I’m beginner, I’m intermediate, and I’m advanced.*
