@@ -21,6 +21,8 @@ featured_img:
 - As someone part-way through the journey, you have a similar forwards and backwards perspective which is now combined with experience, mistakes, achievements, etc that you didn't have before. You stuck with it. You made progress. You can look back and facepalm.
 - But we seem to only concentrate way down the path. We want to get there and know all the things and be able to do all of the stuff.
 
+https://twitter.com/laurieontech/status/1250900874743947267
+
 
 ---
 
