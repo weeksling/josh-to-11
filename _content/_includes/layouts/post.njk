@@ -1,0 +1,56 @@
+{% extends "_html.njk" %}
+
+{% from "macros/postListing.njk" import postListing %}
+
+{% block content %}
+  <article>
+    <div class="post-header">
+      <p class="date">
+        <span>{{ page.date | dateformat }}</span></p>
+      <div class="title">
+        <h1>{{ title }}</h1>
+      </div>
+    </div>
+    {{ content | safe }}
+
+    {% h2br %}Take Action!{% endh2br %}
+
+    <p>
+    {% if link_to %}<a href="{{ link_to }}" class="tag">Go there &rsaquo;</a> {% endif %}
+    {% if twitter_url %}<a href="{{ twitter_url }}" class="tag">Discuss on Twitter &rsaquo;</a>{% endif %}
+      <a href="{{ metaData.gitHubLink(page) }}" class="tag">Suggest changes on GitHub &rsaquo;</a>
+
+    {% set previousPost = collections.postsCollection | getPreviousCollectionItem(page) %}
+    {% set nextPost = collections.postsCollection | getNextCollectionItem(page) %}
+
+    {% if previousPost or nextPost or tags %}
+      {% h2br %}Read More{% endh2br %}
+    {% endif %}
+
+    {% if tags | length %}
+      <h6 class="sub-head">
+        <span>Tags</span>
+      </h6>
+      <p>
+        {% for tag in tags %}
+          <a href="/tag/{{ tag | slug }}" class="tag">{{ tag }}</a>
+        {% endfor %}
+      </p>
+    {% endif %}
+
+    {% if previousPost %}
+      <h6 class="sub-head">
+        <span>Newer</span>
+      </h6>
+      {{ postListing(previousPost, true) }}
+    {% endif %}
+
+    {% if nextPost %}
+      <h6 class="sub-head">
+        <span>Older</span>
+      </h6>
+      {{ postListing(nextPost, true) }}
+    {% endif %}
+
+  </article>
+{% endblock %}

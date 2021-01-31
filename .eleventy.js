@@ -92,9 +92,21 @@ module.exports = function (eleventyConfig) {
     `<h2 class="hr aligncenter" id="${text.replace(/[^a-z0-9]/gi, '-c').toLowerCase()}"><span class="pink">&lt;</span>${text}<span class="pink">&gt;</span></h6>`
   );
 
+  eleventyConfig.addPairedShortcode('info', (text) =>
+    `<blockquote class="info-block">${text}</blockquote>`
+  );
+
+  eleventyConfig.addPairedShortcode('warning', (text) =>
+    `<blockquote class="warning-block">${text}</blockquote>`
+  );
+
+  eleventyConfig.addPairedShortcode('twitter', (url) =>
+    `<p><a href="{{ url }}" class="tag">Discuss on Twitter &rsaquo;</a></p>`
+  );
+
   return {
     dir: {
-      input: "content",
+      input: "_content",
       output: "_dist"
     },
     templateFormats: [

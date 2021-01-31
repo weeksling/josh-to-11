@@ -319,7 +319,8 @@ blockquote {
   background: #f0f3f4;
   padding: 0.9em 1.1em;
   border-radius: 1px;
-  position: relative; }
+  position: relative;
+  font-style: italic; }
   blockquote > :last-child {
     margin-bottom: 0;
     border: none; }
@@ -489,3 +490,11 @@ pre[class*="language-"] {
   .card-small h3 {
     font-size: 18px;
     margin: 0; }
+
+blockquote.info-block {
+  background: #dbedff;
+  font-style: normal; }
+
+blockquote.warning-block {
+  background: #fffcd4;
+  font-style: normal; }
