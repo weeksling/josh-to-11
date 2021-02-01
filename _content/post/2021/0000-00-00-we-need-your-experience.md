@@ -30,14 +30,18 @@ https://twitter.com/laurieontech/status/1250900874743947267
 - *I’m an expert and a novice.*
 - *I’m a teacher and a student.*
 
-## Who Am I?
+Could all these things be true at the same time?
 
-The majority of my career in technology was spent as a freelancer. When you're on your own, your main concern is keeping the pipeline full as far ahead as you can to ensure things like food and electricity remain a part of your life.
+---
 
-A big part of this exhausting hustle is writing about yourself. What you have done (or have been involved with), what you can do (or learn quickly), how you work (or how you want people to think you work). You're selling yourself, which means you're highlighting the best parts and skipping over the rest.
+The majority of my career in technology was spent as a freelancer. When you're on your own, your main concern is keeping the pipeline full as far ahead as you can to ensure things like food and electricity remain an integral part of your life.
 
-Some people do this kind of thing naturally and some people hate it so much that updating their resume is just barely preferable to remaining unemployed for the rest of their life. I'm more in the former camp than the latter, though there are
+A big part of this exhausting hustle is writing about yourself. What you have done (or have been involved with), what you can do (or can learn quickly), how you work (or how you want people to think you work). You're selling yourself, which means you're highlighting the best parts and skipping over the rest.
 
-For much of my professional career, I’ve had to do a lot of reading, writing about, and review of my professional history, my current skill set, and where I want to go. I’ve spent many hours writing about my work, something I find both fun and difficult. I’ve also been getting my resume in shape since it’s been 3 years since I touched it and, even then, it was woefully incomplete. On top of that, I’ve been reaching out to people to meet and talk, whether I though something tangible would come out of it or not.
+Some people do this kind of thing naturally and some people hate it so much that updating their resume is just barely preferable to remaining unemployed for the rest of their life. I'm more in the former camp than the latter, but it's 60/40 at best. 
 
-All of this activity has made me more informed about what I’ve done and what I think I’m capable of than I have been in a long time. ****This can be a very dangerous place to be for some.****
+The hardest part is not finding the words or filtering the right attributes, **it's facing up to the experience level that I'm currently at.**
+
+## Levels
+
+
